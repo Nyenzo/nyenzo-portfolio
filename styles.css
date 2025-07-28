@@ -620,6 +620,8 @@ ul {
 .about-container {
   position: relative;
   z-index: 1;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .about-container .btn {
@@ -631,6 +633,8 @@ ul {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     column-gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
   }
 }
 
